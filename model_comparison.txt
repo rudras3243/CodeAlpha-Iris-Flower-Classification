@@ -1,0 +1,14 @@
+Model comparison on the supplied Iris.csv dataset
+------------------------------------------------------
+Train/test split: 80/20
+random_state: 42
+stratify: target
+
+Logistic Regression : 93.33%
+KNN                 : 93.33%
+Decision Tree       : 93.33%
+Random Forest       : 90.00%
+SVM (RBF)           : 96.67%
+
+Main model selected: SVM (RBF)
+Test accuracy: 96.67%
